@@ -33,9 +33,37 @@
   <body>
     <!--Navigation Bar-->
     <section class="navigation-section">
-      <nav class="navbar navbar-section line-pattern">
-        <a class="navbar-brand name-logo" href="#">Bridgett Taylor</a>
-        <form class="form-inline">
+      <nav class="navbar navbar-expand-md navbar-section line-pattern">
+        <div class="name-logo-section order-0">
+          <a class="navbar-brand name-logo" href="#">Bridgett Taylor</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapsingNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div
+          class="navbar-collapse collapse justify-content-center order-2"
+          id="collapsingNavbar"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link center-links" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link center-links" href="#">Porfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link center-links" href="#">Resume</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form-inline order-md-last">
           <button class="btn btn-lg btn-outline hello-btn" type="button">
             Say Hello
           </button>
@@ -60,8 +88,6 @@
             <i class="far fa-envelope sm-btn"></i
           ></a>
         </div>
-        <button>Need a website?</button>
-        <button>Looking to Hire</button>
       </div>
     </section>
 
@@ -81,6 +107,12 @@
         viverra adipiscing at in tellus. Magna eget est lorem ipsum dolor sit.
         Aliquet lectus proin nibh nisl condimentum id.
       </p>
+    </section>
+    <!--Skills Section and Link to Portfolio Page-->
+    <section class="skills-section">
+      <div>
+        <h2 class="skills-section-title">Skills</h2>
+      </div>
     </section>
     <!--Bootstrap CDN Scripts-->
     <script
