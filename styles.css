@@ -1,0 +1,131 @@
+/*Body Styles*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  color: inherit;
+}
+
+/*Navbar Styles*/
+.navbar-section {
+  background-color: #080019;
+  padding: 2rem;
+}
+
+.line-pattern {
+  background-color: #080019;
+  background-image: linear-gradient(
+      25deg,
+      transparent 65%,
+      hsla(205, 80%, 40%, 0.1),
+      transparent 70%
+    ),
+    linear-gradient(
+      -25deg,
+      transparent 65%,
+      hsla(205, 80%, 40%, 0.1),
+      transparent 70%
+    ),
+    linear-gradient(
+      -25deg,
+      transparent 30%,
+      hsla(205, 80%, 40%, 0.1),
+      transparent 35%
+    ),
+    linear-gradient(
+      25deg,
+      transparent 30%,
+      hsla(205, 80%, 40%, 0.1),
+      transparent 35%
+    ),
+    linear-gradient(
+      65deg,
+      transparent 65%,
+      hsla(205, 80%, 40%, 0.1),
+      transparent 70%
+    ),
+    linear-gradient(
+      -65deg,
+      transparent 65%,
+      hsla(205, 80%, 40%, 0.1),
+      transparent 70%
+    ),
+    linear-gradient(
+      -65deg,
+      transparent 30%,
+      hsla(205, 80%, 40%, 0.1),
+      transparent 35%
+    ),
+    linear-gradient(
+      65deg,
+      transparent 30%,
+      hsla(205, 80%, 40%, 0.1),
+      transparent 35%
+    );
+  background-size: 5em 2em, 5em 2em, 5em 2em, 5em 2em, 2em 5em, 2em 5em, 2em 5em,
+    2em 5em;
+}
+
+.name-logo {
+  color: #e9a72e;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.hello-btn {
+  color: #e9a72e;
+  border: 3px solid #e9a72e;
+  border-radius: 3rem;
+  font-weight: 500;
+}
+
+/* Header Styles */
+.header-section {
+  background-color: #080019;
+  color: #f3f6ff;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.header-title {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 0.09rem;
+  padding-bottom: 1rem;
+}
+
+.header-subtitle {
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+
+.social-media-btns {
+  color: #e9a72e;
+  padding: 1.1rem;
+  font-size: 1.6rem;
+}
+
+.sm-btn {
+  padding: 1rem;
+  border: 3px solid #e9a72e;
+  border-radius: 50%;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+/* About Section Styles */
+.about-me-section {
+  text-align: center;
+  margin: 3rem auto;
+  width: 70%;
+  font-size: 1.5rem;
+}
+
+.about-me-text {
+  padding: 1.5rem 2rem 3rem 2rem;
+  line-height: 1.7;
+  font-size: 1.2rem;
+}
